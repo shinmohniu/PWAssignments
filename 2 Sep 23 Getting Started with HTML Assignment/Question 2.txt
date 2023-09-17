@@ -1,0 +1,11 @@
+Comments are pieces of text that are not rendered as code in the output.
+They remains as plain text within the source code and are neither shown
+in the output nor affect the output.
+Their purpose mainly is to explain and elaborate on the coding logic. They
+describe the code/ part of the code as intended by the programmer. They can
+be viewed and reflected upon by the creator as well as others who view the
+source code.
+Comments can also deactivate a part of code which you do not want to render
+for the time being. Such code can be placed within the comment tags.
+
+An example of using comments in an HTML document is provided in 'Outputs' folder. 

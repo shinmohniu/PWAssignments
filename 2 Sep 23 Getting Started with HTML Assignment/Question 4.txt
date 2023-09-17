@@ -1,0 +1,24 @@
+HTML Tags
+HTML tags define the nature and structure of the content for the browser for rendering.
+A tag starts with a '<' bracket and ends with a '>' bracket.
+Most tags exist in pairs, and the closing tag has a backslash after the opening bracket
+eg.
+Opening tag: <tag name>
+Closing tag: </tag name>
+
+
+HTML Elements
+HTML elements are components of a web page. The include a start tag, and end tag, and the
+content between the tags.
+eg.
+<p>
+This is a paragraph
+</p>
+
+There can be elements within elements
+eg.
+<body>
+<h1>Heading</h1>
+</body>
+
+There can also be empty elements without any content or end tags like <br> and <hr>

@@ -1,0 +1,5 @@
+A Doctype Declaration informs the browser about the document to be expected on the webpage.
+The HTML Doctype tells the browser that it is an HTML file and other speccifications like
+the version of the HTML or the standards
+It is not an element or a tag but a null element i.e self closing and without content.
+It is used to make sure that the document is parsed in a similar way by different web browsers.
