@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+      <legend>Sign In</legend>
+        <form action="">
+          <label for="userid">E-Mail</label>
+          <input type="email" id="userid" name="username" placeholder="e-mail" minlength="3" >
+          <label for="pass">Password</label>
+          <input type="password" id="pass" name="password" placeholder="password">
+          <button type="submit">Sign In</button>
+     </form>
+    </fieldset>
+    <fieldset>
+        <legend>Sign Up</legend>
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name" minlength="3" ><br><br> 
+            <label for="lname">Last Name</label>   
+            <input type="text" name="lastname" id="lname" placeholder="Last Name" minlength="3" ><br><br>
+            <label for="email">e-mail</label>
+            <input type="email" name="email" id="email" minlength="3" ><br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass"><br><br>
+            <label for="cpass">Confirm Password</label>    
+            <input type="password" name="confirmpassword" id="cpass"><br><br>
+            <Label for="age">Age</Label>
+            <input type="number" name="age" id="age" min="0" max="150" placeholder="Age"><br><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender" placeholder="Gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="N">Other</option>
+            </select><br><br>
+            <a href="#">Terms and Conditions</a><br>
+            <input type="checkbox" name="agree" id="agree" required>
+            <label for="agree">I agree to the terms and conditions</label><br><br>
+            <button type="submit">Sign Up</button>       
+        </form>
+    
+    </fieldset>
+</body>
+</html>
